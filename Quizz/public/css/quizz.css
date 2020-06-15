@@ -1,0 +1,835 @@
+body
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(../Images/Backgroundquiz2.jpg);
+    height: 865px;
+
+}
+.logoQuiz
+{
+    position: absolute;
+    width: 586.87px;
+    height: 75.87px;
+    top: -62px;
+    left: 380px;
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 130px;
+    line-height: 173px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #555454;
+    mix-blend-mode: normal;
+}
+.msgRegister
+{
+    position: absolute;
+    width: 360px;
+    height: 22px;
+    left: calc(50% - 380.78px/2 - 17.61px);
+    top: calc(50% - 22px/2 - 110px);
+    font-family: Noto Sans HK;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.015em;
+
+    color: #515151;
+}
+.point1
+{
+position: absolute;
+width: 87.55px;
+height: 91.63px;
+left: calc(50% - 87.55px/2 - 535.98px);
+top: calc(50% - 90.63px/2 + 197.68px);
+font-family: Noto Sans HK;
+font-style: normal;
+font-weight: 900;
+font-size: 200px;
+line-height: 290px;
+text-align: center;
+
+color: #04B4FF;
+
+transform: matrix(0.92, -0.26, 0.41, 0.96, 0, 0);
+}
+.point2
+{
+    position: absolute;
+    width: 87.41px;
+    height: 91.83px;
+    left: calc(50% - 87.41px/2 + 228.42px);
+    top: calc(50% - 91.83px/2 - 354.93px);
+    
+    font-family: Noto Sans HK;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    line-height: 290px;
+    text-align: center;
+    
+    color: #04B4FF;
+    
+    transform: matrix(0.92, -0.27, 0.43, 0.96, 0, 0); 
+}
+.point3
+{
+    position: absolute;
+    width: 84.74px;
+    height: 91.33px;
+    left: calc(50% - 84.74px/2 - 224.09px);
+    top: calc(50% - 91.33px/2 + 273.29px);
+    font-family: Noto Sans SC;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 139px;
+    text-align: center;
+    color: #D7D2D2;
+    
+    transform: matrix(0.93, 0.24, -0.39, 0.96, 0, 0);
+}
+.point4
+{
+    position: absolute;
+    width: 86.18px;
+    height: 89.1px;
+    left: calc(50% - 86.18px/2 + 542.27px);
+    top: calc(50% - 89.1px/2 - 164.53px);  
+    font-family: Noto Sans SC;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 139px;
+    text-align: center; 
+    color: #04B4FF;
+    transform: rotate(180deg);
+}
+.point5
+{
+    position: absolute;
+width: 84.74px;
+height: 41.54px;
+left: calc(50% - 84.74px/2 + 477.77px);
+top: calc(50% - 41.54px/2 - 28.91px);
+font-family: Noto Sans HK;
+font-style: normal;
+font-weight: 300;
+font-size: 150px;
+line-height: 217px;
+text-align: center;
+
+color: #FFFCFC;
+
+transform: matrix(0.93, 0.24, -0.39, 0.96, 0, 0);
+}
+.logoQuizz
+{
+    position: absolute;
+    width: 378.5px;
+    height: 111.61px;
+    left: calc(50% - 378.5px/2 + 485.7px);
+    top: calc(50% - 111.61px/2 + 244.95px);  
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 160px;
+    text-align: center;   
+    color: #515151;
+}
+.logoSA
+{
+    position: absolute;
+    width: 167.18px;
+    height: 150.35px;
+    left: calc(50% - 167.18px/2 + 585.69px);
+    top: calc(50% - 150.35px/2 + 170.02px);  
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 160px;
+    text-align: center;
+    
+    color: #04B4FF; 
+}
+.form-control1
+{
+width: 278.27px;
+height: 50px;
+padding-left: 20px;
+position: absolute;
+left: calc(50% - 310.81px/2 - 14.6px);
+top: calc(52% );
+background: rgba(85, 84, 84, 0.37);
+border-radius: 50px;
+font-family: Noto Sans HK;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 29px;
+letter-spacing: 0.015em;
+
+color: #FFFCFC;
+}
+.form-control2
+{
+width: 278.27px;
+height: 50px;
+padding-left: 20px;
+position: absolute;
+left: calc(50% - 310.81px/2 - 14.6px);
+top: calc(63%);
+background: rgba(85, 84, 84, 0.37);
+border-radius: 50px;
+font-family: Noto Sans HK;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 29px;
+letter-spacing: 0.015em;
+
+color: #FFFCFC;
+}
+.error-form1
+{
+    color: red;
+    position: absolute;
+    left: calc(50% - 310.81px/2 - 14.6px);
+    top: calc(70%);
+}
+.error-form2
+{
+    color: red;
+    position: absolute;
+    left: calc(50% - 310.81px/2 - 14.6px);
+    top: calc(60%);
+}
+.bouton
+{
+    position: absolute;
+    top: 465px;
+    left: calc(50% - 310.81px/2 - 14.6px);
+    width: 298.27px;
+    height: 46.83px;
+    background: #555454;
+    border-radius: 50px;
+    font-family: Noto Sans HK;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #04B4FF;
+}
+.inscrire
+{
+    position: absolute;
+    width: 250px;
+    top: 515px;
+    left: calc(50% - 30px/2 - 30px);
+    font-family: Noto Sans HK;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 140.1%;
+    /* identical to box height, or 20px */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.015em;
+    color: #555454;
+}
+.img-avatar
+{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 620px;
+    top: 200px;
+    border-radius: 50%;
+    border: 1px solid #555454;
+}
+.menu-inscrire1
+{
+    position: absolute;
+    width: 400px;
+    height: 560px;
+    top: 250px;
+    background: rgba(255, 255, 255, 0.92);
+    opacity: 0.85;
+    border-radius: 20px;
+    left: 470px;
+}
+.form-inscrire
+{
+    position:absolute;
+    left: 70px;
+    top: 100px;
+
+}
+.input
+{
+    width: 436px;
+    height: 60px;
+}
+.input1
+{
+    position: absolute;
+    width: 242px;
+    height: 40px;
+    background: rgba(255, 252, 252, 0.93);
+    border: 1px solid #515151;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.input2
+{
+    position: absolute;
+    width: 242px;
+    height: 40px;
+    background: rgba(255, 252, 252, 0.93);
+    border: 1px solid #515151;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.input3
+{
+    position: absolute;
+    width: 242px;
+    height: 40px;
+    background: rgba(255, 252, 252, 0.93);
+    border: 1px solid #515151;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.input4
+{
+    position: absolute;
+    width: 242px;
+    height: 40px;
+    background: rgba(255, 252, 252, 0.93);
+    border: 1px solid #515151;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.input5
+{
+    position: absolute;
+    width: 242px;
+    height: 40px;
+    background: rgba(255, 252, 252, 0.93);
+    border: 1px solid #515151;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.label
+{
+    text-align: left;
+    position: absolute;
+    width: 240px;
+    height: 40px;
+    font-family: Noto Sans HK;
+    font-style: normal;
+    font-weight: 900px;
+    font-size: 18px;
+    line-height: 140.1%;
+    /* or 25px */
+    letter-spacing: 0.015em;
+    color: #555454;
+}
+
+.input-submit
+{
+    position: absolute;
+    width: 240px;
+    height: 39px;
+    top: 400px;
+    background: #04B4FF;
+    border-radius: 20px;
+font-family: Noto Sans HK;
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.015em;
+
+color: #FFFCFC;
+}
+.upload-file
+{
+    position: absolute;
+    width: 98px;
+    height: 34px;
+    left: 694px;
+    top: 825px;
+    color:#00BCD4;
+    background: #04B4FF;
+    border-radius: 10px;
+}
+.upload-inscrire
+{
+    background-color: darkturquoise;
+    color: white;
+    box-shadow: 0 0 0px 2px #00BCD4;
+    padding-left: 0px;
+    margin-left: 0px;
+    background: white;
+}
+.headerAdmin
+{
+    position: absolute;
+    width: 1000px;
+    height: 74px;
+    left: 150px;
+    top: 190px;
+    background: rgba(255, 252, 252, 0.9);
+    border-radius: 20px;
+}
+.deconnecter
+{
+    position: absolute;
+    top: 20px;
+    left: 850px;
+background: #04B4FF;
+border-radius: 10px;
+width: 129px;
+height: 35px;
+font-family: Noto Sans HK;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 29px;
+text-align: center;
+color: #FFFCFC;
+}
+.msgHeader
+{
+    position: absolute;
+    top: -00px;
+    left: 180px;
+width: 670px;
+height: 49px;
+font-family: Noto Sans HK;
+font-style: normal;
+font-weight: bold;
+line-height: 43px;
+text-align: center;
+color: #515151;
+mix-blend-mode: normal;
+font-size: 26px;
+margin-top:10px;
+}
+.nameAvatar
+{
+    font-size: large;
+    padding-left: 10px;
+    width: 150px;
+    height: 50px;
+}
+.avatarAdmin
+{
+    position: absolute;
+    width: 75px;
+    height: 70px;
+border-radius: 50%;
+border: 2px solid #555454;
+}
+.form-admin
+{
+    position: absolute;
+    left: 150px;
+    top: 270px;
+    width: 1000px;
+height: 570px;
+background: #FFFCFC;
+mix-blend-mode: normal;
+opacity: 0.9;
+
+}
+.form-menu
+{
+    width: 1000px;
+height: 75px;
+background: #515151;
+border: 1px solid #555454;
+box-sizing: border-box;
+}
+.liste-question
+{
+    position: absolute;
+    left: -0px;
+    top: -0px;
+    width: 250px;
+    height: 75px;
+    background: #515151;
+    border: 1px solid #555454;
+    box-sizing: border-box;
+    background-image: url(../Images/Icônes/ic-liste.png); 
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40px;
+    font-family: Noto Sans HK;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 36px;
+text-align: center;
+color: #F5FBFD;
+}
+.creer-question
+{
+    position: absolute;
+    left: 750px;
+    top: -0px;
+    width: 250px;
+    height: 75px;
+    background: #515151;
+    border: 1px solid #555454;
+    box-sizing: border-box;
+    background-image: url(../Images/Icônes/ic-ajout.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 40px;
+    font-family: Noto Sans HK;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 36px;
+text-align: center;
+
+color: #F5FBFD;
+}
+.liste-joueurs
+{
+    position: absolute;
+    left: 500px;
+    top: -0px;
+    width: 250px;
+    height: 75px;
+    color: white;
+    background: #515151;
+    border: 1px solid #555454;
+    box-sizing: border-box;
+    background-image: url(../Images/Icônes/ic-liste.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40px;
+    font-family: Noto Sans HK;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 36px;
+text-align: center;
+color: white;
+}
+.creer-admin
+{
+
+    position: absolute;
+    left: 250px;
+    top: -0px;
+    width: 250px;
+    height: 75px;
+    background: #515151;
+    border: 1px solid #555454;
+    box-sizing: border-box;
+    background: rgb(122, 86, 86)51;
+    border: 1px solid #555454;
+    box-sizing: border-box;
+    background-image: url(../Images/Icônes/ic-ajout.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 40px;
+    font-family: Noto Sans HK;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 36px;
+text-align: center;
+
+color: #F5FBFD;
+}
+.listeQuestion
+{
+    position: absolute;
+    width: 600px;
+    height: 475px;
+    left: 200px;
+    top: 75px;
+    background: #FFFCFC;
+    border: 5px solid #515151;
+    border-radius: 10px;
+}
+.enteteLQuestion
+{
+    margin-left: 40px;
+    font-size: large;
+    font-style: normal;
+    width: 100px;
+    text-align: center;
+    margin-top: 30px;
+}
+.nbrepage
+{
+    position: absolute;
+    left: 60px;
+    top: 160px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    font-size: large;
+    color: #818181;
+    border-radius: 3px;
+    border-color: #818181;
+}
+.okQuestion
+{
+    border-radius: 5px;
+    width: 86px;
+    height: 35px;
+    position: absolute;
+    left: 45px;
+    top: 200px;
+    background-color: deepskyblue;
+    font-family: Noto Sans HK;
+    font-weight: 900;
+    font-size: larger;
+    text-align: center;
+    color: #FFFCFC;
+}
+.AvatarAdmin
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 80px;
+    border: 2px solid #555454;
+    border-radius: 50%;
+    left: 230px;
+}
+.menu-inscrireAdmin
+{
+    position: absolute;
+    left: 350px;
+    top: 0px;
+}
+.input-submitAdmin
+{
+    width: 242px;
+    height: 42px;
+background: #04B4FF;
+border-radius: 20px;
+font-family: Noto Sans HK;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+text-align: center;
+width: 258px;
+/* or 0px */
+align-items: center;
+letter-spacing: 0.015em;
+color: #FFFCFC;
+}
+.enteteJoueur
+{
+font-family: Noto Sans HK;
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 29px;
+text-align: center;
+letter-spacing: 0.015em;
+text-decoration-line: underline;
+text-transform: uppercase;
+color: #555454;
+}
+.listeJoueur
+{
+    position: absolute;
+    top: 75px;
+    left: 250px;
+    height: 492px;
+    width: 500px;
+    background: #FFFCFC;
+    border: 1px solid #555454;
+    box-sizing: border-box;
+    border-radius: 0px 0px 20px 20px;
+}
+.enteteCQuestion
+{
+    position: absolute;
+    width: 552px;
+    height: 43px;
+    top: 90px;
+    left: 223px;
+    background: #FFFCFC;
+    border: 1px solid #515151;
+    font-family: Noto Sans HK;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #555454;
+    line-height: 0;
+}
+.formu-question
+{
+    position: absolute;
+    top: 140px;
+    left: 223px;
+}
+.champ
+{
+    height: 50px;
+    font-family: Noto Sans HK;
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+text-align: center;
+letter-spacing: 0.015em;
+color: #555454;
+background: #F4F1F1;
+border: 1px solid #515151;
+box-sizing: border-box;
+border-radius: 10px;
+}
+#nbrpoints
+{
+    font-family: Noto Sans HK;
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 29px;
+text-align: center;
+letter-spacing: 0.015em;
+color: #555454;
+background: #F4F1F1;
+border: 1px solid #515151;
+box-sizing: border-box;
+border-radius: 10px;
+width: 70px;
+}
+#selct
+{
+    width: 300px;
+height: 40px;
+    background: #F4F1F1;
+border: 1px solid #515151;
+box-sizing: border-box;
+border-radius: 10px;
+
+}
+.btn_ajout
+{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 460px;
+    padding: 0px;
+    background: rgba(4, 180, 255, 0.72);
+    border: 1px solid #515151;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: url(../Images/Icônes/ic-ajout.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25px;
+    top: 137px
+    
+}
+.labelQuestion
+{
+    font-family: Noto Sans HK;
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+letter-spacing: 0.015em;
+
+color: #555454;
+}
+.boutonEnregistrer
+{
+    top: 360px;
+left: 0px;
+    width: 552px;
+    height: 46px;
+    background: #04B4FF;
+    border: 1px solid #555454;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Noto Sans HK;
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 43px;
+text-align: center;
+letter-spacing: 0.015em;
+position: absolute;
+color: #FFFCFC; 
+}
+.btn_supprimer
+{
+    background: url(../Images/Icônes/ic-supprimer.png);
+    background-repeat: no-repeat;
+    padding: 0px;
+    border: 0px;
+    width: 15px;
+    height: 25px;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-position: center;
+    background-size: 25px;
+    height: 35px;
+    width: 22px;
+    top: 10px;
+}
+.labelReponse
+{
+    font-family: Noto Sans HK;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 0.015em;
+    color: #555454;
+}
+#tableau
+{
+    max-height: 75vh;
+    overflow: scroll;
+}
+.liste-score
+{
+    position: absolute;
+    width: 265px;
+    height: 91px;
+    left: 105px;
+    top: 376px;
+    
+    background: #FFFCFC;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.bordQuestion
+{
+    position: absolute;
+width: 469px;
+height: 113px;
+left: 400px;
+top: 328px;
+
+background: rgba(255, 252, 252, 0.93);
+border: 1px solid #515151;
+box-sizing: border-box;
+}
